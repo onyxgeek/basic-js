@@ -11,10 +11,13 @@ const { NotImplementedError } = require('../extensions/index.js');
  * getSeason(new Date(2020, 02, 31)) => 'spring'
  *
  */
-function getSeason(/* date */) {
+function renameFiles(/* names */) {
   throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
 }
+
+
+
 
 module.exports = {
   getSeason
